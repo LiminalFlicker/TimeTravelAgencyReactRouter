@@ -1,15 +1,13 @@
-import { useState } from "react";
-import Header from "./components/NavBar";
 import "./App.css";
 import NavBar from "./components/NavBar";
+import { Route, Routes } from "react-router";
+import MainLayout from "./layouts/MainLayout.jsx";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <NavBar />
-    </>
+    <Routes>
+      <Route path="/" element={<MainLayout />}></Route>
+    </Routes>
   );
 }
 
