@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 function NavBar() {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm">
+      <div className="navbar bg-green-500 shadow-md">
         <div className="flex-1">
           <a className="btn btn-ghost text-xl">Time Travel Agency</a>
         </div>
