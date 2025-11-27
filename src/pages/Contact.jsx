@@ -1,7 +1,11 @@
+import ContactForm from "../components/ContactForm";
+
 export default function Contact() {
   return (
     <>
-      <h1>Contact us here</h1>
+      <section className="flex flex-col">
+        <ContactForm />
+      </section>
     </>
   );
 }

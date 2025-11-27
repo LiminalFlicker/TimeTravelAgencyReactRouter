@@ -12,7 +12,7 @@ function MainLayout() {
         <NavBar />
       </header>
       <Outlet context={travelData} />
-      <footer>&copy;♥️꩜</footer>
+      <footer>&copy;</footer>
     </>
   );
 }

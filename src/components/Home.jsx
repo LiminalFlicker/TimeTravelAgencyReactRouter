@@ -3,7 +3,14 @@
 export default function Home() {
   return (
     <>
-      <h1>Welcome!</h1>
+      <h1 className="text-center text-3xl">Find your next adventure</h1>
+      <section className="flex flex-col items-center gap-2.5">
+        <input type="text" placeholder="Origin" className="input" />
+        <input type="text" placeholder="Destination" className="input" />
+        <input type="date" placeholder="Start date" className="input" />
+        <input type="date" placeholder="End date" className="input" />
+        <button className="btn btn-success">Submit Request</button>
+      </section>
     </>
   );
 }
