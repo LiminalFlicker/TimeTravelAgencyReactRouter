@@ -6,6 +6,7 @@ import Home from "./components/Home.jsx";
 import Destinations from "./pages/Destinations.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
+import ViewDestination from "./pages/ViewDestination.jsx";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/destinations" element={<Destinations />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/destination/:slug" element={<ViewDestination />} />
       </Route>
     </Routes>
   );

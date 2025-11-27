@@ -10,7 +10,7 @@ function NavBar() {
         </div>
 
         <nav className="flex-none">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu font-bold menu-horizontal px-1">
             <li>
               <NavLink to="/">Home</NavLink>
             </li>

@@ -8,7 +8,9 @@ export default function Destinations() {
 
   return (
     <>
-      <h1 className="font-bold text-center">Find here all destinations</h1>
+      <h1 className="font-bold m-4 text-center text-3xl">
+        Discover Destinations
+      </h1>
 
       <div className="flex flex-wrap place-content-around">
         {travelData?.map((dest) => (

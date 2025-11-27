@@ -11,7 +11,7 @@ function ContactForm() {
           <label className="fieldset-legend">Your message:</label>
           <textarea type="textarea" className="textarea" />
           <button className="btn mt-2 btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">
-            Submit
+            SUBMIT
           </button>
         </fieldset>
       </form>

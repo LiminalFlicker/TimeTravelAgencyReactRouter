@@ -12,7 +12,14 @@ function MainLayout() {
         <NavBar />
       </header>
       <Outlet context={travelData} />
-      <footer>&copy;</footer>
+      <footer className="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4 mt-4">
+        <aside>
+          <p>
+            Copyright © {new Date().getFullYear()} - All right reserved by Time
+            Industries Ltd
+          </p>
+        </aside>
+      </footer>
     </>
   );
 }
